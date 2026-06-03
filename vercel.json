@@ -1,6 +1,10 @@
 {
+  "version": 2,
   "functions": {
     "api/*.php": {
+      "runtime": "@vercel-community/php"
+    },
+    "*.php": {
       "runtime": "@vercel-community/php"
     }
   },
