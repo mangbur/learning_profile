@@ -1,15 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include 'layouts/head.php' ?>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
 <body>
-    <?php include 'layouts/navbar.php' ?>
+    <header>
+        <div>
+            <h2>Learning</h2>
+        </div>
+        <nav class="nav-bar">
+            <a href="index.php">Home</a>
+            <a href="about.php">About</a>
+            <a href="contact.php">Proker</a>
+        </nav>
+    </header>
     <main class="container">
         <h2 class="section-title">Anggota Learning</h2>
         <div class="team-grid">
-            
+
             <!-- Kordinator -->
             <div class="team-card">
-                <div class="avatar-box"> 
+                <div class="avatar-box">
                     <span class="badge-leader">Kordinator</span>
                     <i class="fas fa-user-tie"></i>
                 </div>
@@ -57,4 +72,5 @@
     </main>
 
 </body>
+
 </html>
